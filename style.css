@@ -329,6 +329,7 @@ input:checked + .slider:before {
     flex: 2;
     padding: 2.5rem;
     position: relative;
+    text-align: center;
 }
 
 .tiktok-preview {
@@ -466,6 +467,7 @@ input:checked + .slider:before {
 
 .about-text {
     flex: 1;
+    text-align: center;
 }
 
 .about-text p {
@@ -612,6 +614,7 @@ input:checked + .slider:before {
 }
 
 .experience-card {
+    text-align: center;
     background-color: var(--card-bg);
     border-radius: 16px;
     padding: 2rem;
@@ -722,6 +725,7 @@ input:checked + .slider:before {
 }
 
 .project-card {
+    text-align: center;
     background-color: var(--card-bg);
     border-radius: 12px;
     overflow: hidden;
@@ -817,6 +821,8 @@ input:checked + .slider:before {
     border-radius: 20px;
     padding: 80px 0;
     margin: 40px 0;
+        text-align: center;
+
 }
 
 .skills-container {
@@ -824,9 +830,15 @@ input:checked + .slider:before {
     gap: 2rem;
     margin-top: 2rem;
     flex-wrap: wrap;
+        text-align: center;
+
 }
 
 .skills-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     flex: 1;
     min-width: 250px;
     background-color: var(--bg-color);
@@ -835,6 +847,7 @@ input:checked + .slider:before {
     box-shadow: var(--shadow);
     border: 1px solid var(--border-color);
     transition: var(--transition);
+    text-align: center;
 }
 
 .skills-category:hover {
@@ -848,6 +861,8 @@ input:checked + .slider:before {
     display: flex;
     align-items: center;
     gap: 10px;
+        text-align: center;
+
 }
 
 .skills-category h3 i {
@@ -856,8 +871,14 @@ input:checked + .slider:before {
 
 .skills-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     flex-wrap: wrap;
     gap: 0.8rem;
+        text-align: center;
+
 }
 
 .skill-item {
